@@ -1,0 +1,257 @@
+
+/*genral css----------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header , nav , footer , main , section{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clear{
+    clear: both;
+}
+
+/*end of genral css----------------------------------------------------------------*/
+
+
+#wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+/*header css----------------------------------------------------------------*/
+
+#header{
+    position: relative;
+    height: 192px;
+    background-color: #D6D6D6;
+}
+
+#header a{
+    background-image: url(../images/logo.png);
+    display: block;
+    width: 106px;
+    height: 104px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/*end of header css--------------------------------------------------------------------*/
+
+/*nav bar css-------------------------------------------------------------------------*/
+#nav{
+    height: 63px;
+    background-color: #337AB7;
+}
+
+#nav ul{
+    list-style: none;
+    padding: 12px;
+    overflow: auto;
+}
+
+
+
+#nav ul li a{
+    
+    width: 233px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-family: sans-serif;
+    float: left;
+}
+
+#nav ul li a:hover{
+    background-color: #003748;
+}
+
+
+
+
+/*end nav bar css-------------------------------------------------------------------------*/
+
+
+
+/*main section css--------------------------------------------------------------------------------*/
+
+#mainSection{
+    
+}
+
+/*main css*---------*/
+
+main{
+    width: 757px;
+    height: 696px;
+    background-color: antiquewhite;
+    float: left;
+}
+
+#aside{
+    width: 243px; 
+    height: 696px;
+    background-color: #EEEEEE;
+    float: right;
+    
+}
+
+/*box's css*/
+
+.box1{
+    width: 700px; 
+    height: 127px;;
+    background-color: #62C462;
+    float: left;
+    margin: 115px 25px 0px 32px;
+}
+
+.box2{
+    width: 700px; 
+    height: 200px;
+    background-color: #62C462;
+    float: left;
+    margin: 28px 28px 0px 32px;
+}
+
+.box3{
+    width: 185px; 
+    height: 124px;
+    background-color: #62C462;
+    float: right;
+    margin: 28px 25px 79px 0px;
+}
+
+.box4{
+    width: 183px; 
+    height: 124px;
+    background-color: #62C462;
+    float: right;
+    margin: 264px 10px 308px 48px;
+    
+}
+
+/*end of /*main css-----------------------------------------------------------------------*/
+
+
+/*footer css------------------------------------------------------------------------------*/
+
+#footer{
+    height: 52px;
+    background-color: #D6D6D6;
+}
+/*layout2 css*-------------------------------------------------------------------------------*/
+ 
+.layout2 #nav , #main , #aside{
+    float: left;
+}
+
+
+.layout2 #nav{
+    width: 146px;
+    height: 750px;
+}
+
+.layout2 #main{
+    width: 634px;
+    height: 757px;
+    background-color: #FFFFFF;
+}
+
+.layout2 #aside{
+    width: 220px;
+    height: 757px;
+}
+
+.layout2 .box1{
+    width: 189px;
+    height: 510px;
+    margin: 23px 29px 0px 5px;
+    float: left;
+}
+
+.layout2 .box2{
+    width: 189px;
+    height: 324px;
+    margin: 23px 29px 0px 0px;
+    float: left;
+    
+}
+
+.layout2 .box3{
+    width: 189px;
+    height: 382px;
+    float: left;
+}
+
+.layout2 .box4{
+    width: 79px;
+    height: 68px;
+    float: left;
+    margin: 261px 0px 0px 11px;
+}
+
+.layout2 .box5{
+    width: 189px; 
+    height: 124px;
+    background-color: #62C462;
+    float: left;
+    margin: 23px 4px 0px 0px;
+}
+
+
+
+.layout2 #nav ul{
+    padding: 0px;
+    overflow: visible;
+}
+
+
+
+
+.layout2 #nav ul li a{
+    width: 146px;
+    height: 58px;
+    line-height: 58px;
+    display: block;
+}
+
+/*
+
+#nav ul{
+    list-style: none;
+    padding: 12px;
+    overflow: auto;
+}
+
+#nav ul li{
+   background-color: aqua;
+}
+
+#nav ul li a{
+    
+    width: 233px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-family: sans-serif;
+    float: left;
+}
+*/
+
