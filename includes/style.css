@@ -25,6 +25,10 @@ a{
     margin: 0 auto;
 }
 
+.layout3{
+    background-color: aqua;
+}
+
 
 
 /*header css----------------------------------------------------------------*/
@@ -76,10 +80,16 @@ nav ul li a{
     float: left;
 }
 
-.layout1 nav ul > :first-child a{
+.layout1 nav ul > li:first-child a{
     background-color: #003748;
 }
 
+.layout3 nav ul  li:nth-child(3) a{
+    background-color: #003748;
+    height: 63px;
+    margin-top: -11.7px;
+    line-height: 63px;
+}
 
 /*end nav bar css-------------------------------------------------------------------------*/
 
@@ -154,9 +164,7 @@ footer{
 }
 /*layout2 css*-------------------------------------------------------------------------------*/
  
-.layout2{
-    position: relative;
-}
+
 
 .layout2 nav , main , #aside{
     float: left;
@@ -226,10 +234,10 @@ footer{
     display: block;
 }
 
-.layout2 footer{
+.layout2 footer , .layout3 footer{
     position: fixed;
     width: 1000px;
-   /* top: 949px;*/
+    //top: 949px;
     height: 52px;
     bottom: 0;
     background-color: #D6D6D6;
@@ -239,3 +247,50 @@ footer{
     background-color: #003748;
 }
 
+
+section > article{
+    width: 333.33333px;
+    height: 333px;
+    float: left;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section > article:nth-child(4n+1){
+    background-color: yellow
+}
+
+
+section > article:nth-child(4n+2){
+    background-color: blueviolet
+}
+
+
+section > article:nth-child(4n+3){
+    background-color: brown
+}
+
+section > article:nth-child(4n+4){
+    background-color: blue
+}
+
+@media screen and (max-width: 1000px){
+     #wrapper{
+        max-width: 1000px;
+        width: 100%;
+    }
+    .layout3 nav{
+        max-width: 1000px;
+        width: 100%;
+    }
+     .layout3 nav ul li a{
+        max-width: 170px; 
+        width: 100%;
+    }
+    .layout3 article{
+        max-width: 333px;
+        width: 100%;
+    }
+    
+}
